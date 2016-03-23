@@ -1,0 +1,25 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/heroAnimate.js",
+        "src/enemyAnimate.js",
+        "src/start.js",
+        "src/introduce.js",
+        "src/game.js",
+        "src/gameOverSmallFail.js",
+        "src/gameOverBigVictory.js",
+        "src/gameOverFail.js",
+        "src/gameOverVictory.js"
+    ]
+}

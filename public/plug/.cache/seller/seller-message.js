@@ -1,2 +1,0 @@
-/*TMODJS:{"version":51,"md5":"2e7c574b2994b4cc44ae5cbfe308076a"}*/
-template('seller/seller-message','<div class="seller-bg"> <div class="seller-information"> 网主小韩<br> 十年专注品质<br> 专业为您，品质生活！ </div> </div>');

@@ -1,0 +1,2 @@
+/*TMODJS:{"version":29,"md5":"944105319bab08c06ec4b252b5113431"}*/
+template('carousel/carousel-previous-next','<div class="previous-next none"> <span class="previous"><</span> <span class="next">></span> </div>');

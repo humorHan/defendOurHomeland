@@ -1,0 +1,35 @@
+.carousel-nav {
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+}
+.carousel-nav li {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+.carousel-nav .red{
+    background-color: #b61b1f;
+}
+.previous-next span{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    display: block;
+    width: 28px;
+    height: 62px;
+    line-height: 62px;
+    background: rgba(0,0,0,.2);
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+.previous-next .next{
+    right: 0;
+}

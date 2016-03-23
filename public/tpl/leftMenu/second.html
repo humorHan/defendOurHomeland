@@ -1,0 +1,13 @@
+{{each children}}
+    <div class="secondItem">
+        <div class="secondItemName fl">
+            <span>{{$value.name}}</span>
+            <i>></i>
+        </div>
+        <ul class="secondItemList">
+            {{each $value.children}}
+                <li>{{$value}}</li>
+            {{/each}}
+        </ul>
+    </div>
+{{/each}}

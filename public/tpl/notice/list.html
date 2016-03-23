@@ -1,0 +1,18 @@
+<div class="title">
+    <div class="titleName">U购快报</div>
+    <a href="javascript:;" class="titleMore">更多 > </a>
+</div>
+<ul class="content">
+    {{each results}}
+        <li>
+            <a href="javascript:;">
+                {{if $value.type == 0}}
+                    <span class="contentType">[特惠] </span>
+                {{else}}
+                    <span class="contentType">[公告] </span>
+                {{/if}}
+                {{$value.content}}
+            </a>
+        </li>
+    {{/each}}
+</ul>
